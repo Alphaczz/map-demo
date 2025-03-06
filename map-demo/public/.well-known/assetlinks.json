@@ -2,7 +2,7 @@
     {
       "relation": ["delegate_permission/common.handle_all_urls"],
       "target": {
-        "namespace": "com.example.tourtime",
+        "namespace": "android_app",
         "package_name": "com.example.tourtime",
         "sha256_cert_fingerprints": ["92:09:DA:33:3B:4F:74:72:1C:C4:32:E1:1D:18:96:B7:EF:4F:26:E9:D0:BE:6C:57:46:1C:82:27:32:48:C5:0F"]
       }
