@@ -13,15 +13,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-body {
+body, #root {
   margin: 0;
+  width: 100vw; /* Full width */
+  height: 100vh; /* Full height */
   display: flex;
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center content vertically */
-  height: 100vh; /* Full viewport height */
-  text-align: center; /* Center text inside elements */
-  min-width: 320px;
+  flex-direction: column;
+  justify-content: center; /* Center content vertically */
+  align-items: center; /* Center content horizontally */
+  text-align: center;
   background-color: #242424;
+  overflow: hidden; /* Prevents scrollbars */
 }
 
 a {
