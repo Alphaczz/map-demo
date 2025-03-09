@@ -50,7 +50,7 @@ const GoogleMapsPolyline = () => {
   return (
     <div style={{ display: "flex", justifyContent: "center", alignItems: "center", height: "100vh", flexDirection: "column" }}>
       <div style={containerStyle}>
-      <LoadScript googleMapsApiKey="map api key here">
+      <LoadScript googleMapsApiKey="AIzaSyAO-41edi7Zwm1GSqjRBb39ycsFHPVvo_M">
 
           <GoogleMap
             mapContainerStyle={{ width: "100%", height: "100%" }}
